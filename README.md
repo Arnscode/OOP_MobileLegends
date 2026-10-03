@@ -1,4 +1,4 @@
-# Filter Hero Mobile Legends — OOP + Functional Programming
+# Filter Hero Mobile Legends Functional Programming
 
 Project ini membaca data hero Mobile Legends dari file JSON, membungkusnya jadi objek dengan konsep **OOP (Object-Oriented Programming)**, lalu memfilter hero yang berperan sebagai **Exp laner** saja menggunakan pendekatan **Functional Programming** (`filter` + `map` + `lambda`). Hasil akhirnya disimpan ke file CSV.
 
@@ -7,7 +7,7 @@ Project ini membaca data hero Mobile Legends dari file JSON, membungkusnya jadi 
 ```
 .
 ├── data/
-│   ├── heroes.json          # data mentah (input) — 13 hero ML
+│   ├── heroess.json          # data mentah (input) — 13 hero ML
 │   └── heroes_exp.csv       # hasil filter role Exp (output, dibuat otomatis)
 ├── heroes_fp.py             # script utama: baca JSON, filter+map, simpan CSV
 └── README.md
