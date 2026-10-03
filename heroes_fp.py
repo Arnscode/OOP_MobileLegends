@@ -6,7 +6,6 @@ from typing import List, Dict, Any
 input_file_json: str = "data/heroess.json"
 with open(input_file_json, mode="r", encoding="utf-8") as file:
     payload: Any = json.load(file)
-
 raw_items: List[Dict[str, Any]] = payload if isinstance(payload, list) else payload.get("hero")
 items: List[Dict[str, Any]] = raw_items if isinstance(raw_items, list) else []
 
