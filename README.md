@@ -7,7 +7,7 @@ Project ini membaca data hero Mobile Legends dari file JSON, membungkusnya jadi 
 ```
 .
 ├── data/
-│   ├── heroes.json          # data mentah (input) — 13 hero ML
+│   ├── heroess.json          # data mentah (input) — 13 hero ML
 │   └── heroes_exp.csv       # hasil filter role Exp (output, dibuat otomatis)
 ├── heroes_fp.py             # script utama: baca JSON, filter+map, simpan CSV
 └── README.md
