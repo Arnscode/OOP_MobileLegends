@@ -1,4 +1,4 @@
-# Filter Hero Mobile Legends — OOP + Functional Programming
+# Filter Hero Mobile Legends Functional Programming
 
 Project ini membaca data hero Mobile Legends dari file JSON, membungkusnya jadi objek dengan konsep **OOP (Object-Oriented Programming)**, lalu memfilter hero yang berperan sebagai **Exp laner** saja menggunakan pendekatan **Functional Programming** (`filter` + `map` + `lambda`). Hasil akhirnya disimpan ke file CSV.
 
